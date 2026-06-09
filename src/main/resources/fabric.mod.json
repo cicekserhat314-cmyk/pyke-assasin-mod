@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "pyke_assasin_mod",
+  "version": "${version}",
+  "name": "Pyke Assassin Mod",
+  "description": "League of Legends Pyke Assassin Class Mod for Fabric",
+  "authors": [
+    "Pyke Developer"
+  ],
+  "contact": {
+    "homepage": "https://github.com/cicekserhat314-cmyk/pyke-assasin-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/pyke_assasin_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pyke.PykeAssassinMod"
+    ]
+  },
+  "mixins": [
+    "pyke_assasin_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.x"
+  }
+}
